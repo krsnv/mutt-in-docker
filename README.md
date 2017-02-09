@@ -15,7 +15,7 @@ and run it:
 
 
 ```
-docker run -v $(pwd)/mutt/.muttrc:/home/YOUR_USER/.muttrc -it mutt mutt
+docker run -v $(pwd)/mutt/.muttrc:/home/YOUR_USER/.muttrc -it --user YOUR_USER mutt mutt
 ```
 
 You can also add a bash alias to .bashrc:
