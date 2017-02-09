@@ -17,3 +17,15 @@ and run it:
 ```
 docker run -v $(pwd)/mutt/.muttrc:/home/YOUR_USER/.muttrc -it mutt /bin/bash
 ```
+
+Switch to your user:
+
+```
+su USER_NAME
+```
+
+Run mutt:
+
+```
+mutt
+```
